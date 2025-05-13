@@ -1,0 +1,31 @@
+Home
+- Contact
+- Play
+  - Encounter 1: Start Your Adventure
+    - Option 1: Approach the main gates → Encounter 2A: Castle Gates
+    - Option 2: Explore the area around the castle → Encounter 2B: Explore the Surroundings
+
+  - Encounter 2A: Castle Gates
+    - Option 1: Search for clues inside the castle → Encounter 3A: Dark Hall
+    - Option 2: Exit through the gates → Encounter 1: Start Your Adventure
+
+  - Encounter 2B: Explore the Surroundings
+    - Option 1: Enter the ruins → Encounter 3B: Ancient Crypt
+    - Option 2: Return to the gates and enter the castle → Encounter 2A: Castle Gates
+
+  - Encounter 3A: Dark Hall
+    - Option 1: Listen to the spirit's advice → Encounter 4A: Choice Between Two Paths
+    - Option 2: Ignore the spirit and move forward → Encounter 4A: Choice Between Two Paths
+
+  - Encounter 3B: Ancient Crypt
+    - Option 1: Open one of the tombs → Encounter 4A: Choice Between Two Paths
+    - Option 2: Leave the crypt and return to the hall → Encounter 2A: Castle Gates
+
+  - Encounter 4A: Choice Between Two Paths
+    - Description: Before you are two paths: one leads into a dark, twisted forest, the other into a dark stone room from which strange sounds emanate. Which one will you choose?
+      - Option 1: Go into the forest → Encounter 4B: Secret Dungeon
+      - Option 2: Return to the dark hall → Encounter 3A: Dark Hall
+
+  - Encounter 4B: Secret Dungeon
+    - Option 1: Open the mysterious door → End of the game
+    - Option 2: Return to find another way → Encounter 4A: Choice Between Two Paths

@@ -1,0 +1,196 @@
+body {
+  background-color: #3c3f39;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body footer {
+  color: white;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+.start-button {
+  background-color: #3c3f39;
+}
+
+.navbar {
+  background-color: #232624;
+  padding: 30px 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-list a:hover {
+  background-color: #343936;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #303935;
+  border: 2px solid #141717;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+#contacts {
+  background-color: #232624; /* Set background color for the contact section */
+  padding: 40px; /* Add padding around the section */
+  margin: 20px auto; /* Center the section and add vertical margin */
+  max-width: 800px; /* Limit the section's width */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for a soft 3D effect */
+}
+
+#contacts h2 {
+  text-align: center; /* Center align the heading */
+  font-size: 2.5rem; /* Increase font size */
+  color: #ffffff; /* Set text color to dark gray */
+}
+
+#contacts p {
+  font-size: 1.2rem; /* Increase font size for the paragraph */
+  color: #ffffff; /* Set text color to a lighter gray */
+  text-align: center; /* Center align the paragraph */
+  margin: 10px 0; /* Add margin for spacing between paragraphs */
+}
+
+#contacts a {
+  color: #4867c3; /* Set link color to blue */
+  text-decoration: none; /* Remove underline from links */
+}
+
+#contacts a:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+#contacts form {
+  display: flex; /* Use flexbox for the form layout */
+  flex-direction: column; /* Arrange form elements vertically */
+  gap: 20px; /* Add space between form elements */
+  margin-top: 20px; /* Add margin at the top of the form */
+}
+
+#contacts label {
+  font-size: 1.1rem; /* Slightly increase font size for labels */
+  color: #fcfcfc; /* Set text color to dark gray */
+}
+
+#contacts input, #contacts textarea {
+  padding: 12px; /* Add padding inside the input and textarea fields */
+  font-size: 1rem; /* Set font size */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners for input and textarea */
+  width: 100%; /* Make the input fields fill the container */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+#contacts textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+  min-height: 150px; /* Set minimum height for the textarea */
+}
+
+#contacts button {
+  background-color: #007bff; /* Blue background for the button */
+  color: white; /* White text color */
+  padding: 12px 20px; /* Add padding inside the button */
+  font-size: 1.2rem; /* Increase font size for the button text */
+  border: none; /* Remove border from button */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  width: 100%; /* Make the button fill the width of the form */
+}
+
+#contacts button:hover {
+  background-color: #0056b3; /* Change button color on hover */
+}
+
+/* Media query for screens up to 768px (tablets and smaller devices) */
+@media (max-width: 768px) {
+  body {
+    background-color: #3c3f39; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center-align text */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+
+  .navbar {
+    padding: 20px 50px; /* Reduce navbar padding for mobile */
+  }
+
+  .nav-list {
+   /* Stack nav items vertically */
+    align-items: center; /* Center align items */
+   flex-direction: unset;
+  }
+  
+
+
+  .content-box {
+    width: 90%; /* Reduce width to fit more content on mobile */
+    margin: 10px auto; /* Reduce margin for mobile */
+    padding: 15px; /* Reduce padding for mobile */
+  }
+
+  #contacts {
+    padding: 20px; /* Reduce padding for mobile */
+    margin: 10px auto; /* Reduce margin for mobile */
+    max-width: 90%; /* Make the contact section smaller */
+  }
+
+  #contacts h2 {
+    font-size: 2rem; /* Reduce font size */
+  }
+
+  #contacts p {
+    font-size: 1rem; /* Reduce font size */
+  }
+
+  #contacts form {
+    gap: 10px; /* Reduce gap between form elements */
+  }
+
+  #contacts input, #contacts textarea {
+    font-size: 0.9rem; /* Reduce font size for input fields */
+    padding: 10px; /* Reduce padding for input fields */
+  }
+
+  #contacts button {
+    font-size: 1rem; /* Reduce font size for button */
+    padding: 10px 15px; /* Reduce padding for button */
+  }
+}
